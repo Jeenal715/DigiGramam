@@ -1,0 +1,91 @@
+
+.header{
+    
+    height:50px;
+    display:flex;
+   flex-grow:1;
+   background-color:white;
+    flex-basis:1100px;
+    width:1080px
+  }
+  
+
+
+
+input{
+    width:500px;
+    border-radius: 20px;
+}
+
+.apparels{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    background-color:rgba(0,0,0,0.9);
+    width:600px;
+    height:410px;
+}
+li img{
+    margin-left: 100px;;
+    height: 200px;
+    width:400px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.sapparels{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    background-color:rgba(0,0,0,0.9);
+    width:600px;
+    height:300px;
+}
+.list{
+    
+    height:50px;
+    display:flex;
+   flex-grow:1;
+   background-color:white;
+    flex-basis:1100px;
+    width:1080px
+}
+.list > *{
+    background-color:rgba(0,0,0,0.9);
+    margin:1px;
+    padding:2px;
+    border: 2px solid white;
+    height:40px;
+    text-align:center;
+    line-height:50px;
+    flex-grow:1;
+     border-radius: 12px;
+    }
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    body{
+        width:1100px;
+    }
+    .header1{
+    
+        height:50px;
+        display:flex;
+       flex-grow:1;
+       background-color: black;
+        
+        width:1080px;
+    }
+    .header1 > *{
+        background-color:black;
+        margin:1px;
+        padding:2px;
+       line-height: 20px;
+        height:40px;
+        text-align:center;
+        line-height:50px;
+        flex-grow:1;
+         border-radius: 12px;
+        }
